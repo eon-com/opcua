@@ -5,19 +5,11 @@
 package opcua
 
 import (
-<<<<<<< HEAD
-	"github.com/gopcua/opcua/id"
-||||||| merged common ancestors
-	"time"
-
-=======
-	"time"
-
-	"github.com/gopcua/opcua/id"
->>>>>>> Add browsing and an example
-	"github.com/gopcua/opcua/ua"
 	"strings"
 	"time"
+
+	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/ua"
 )
 
 // Node is a high-level object to interact with a node in the
